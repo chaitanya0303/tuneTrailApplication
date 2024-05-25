@@ -1,0 +1,45 @@
+.sidebar {
+  background-color: rgb(222, 115, 136);
+  background-color: rgb(180, 66, 66);
+  color: rgb(1, 1, 1);
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: rgb(250, 250, 250);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.sidebar a {
+  text-decoration: none; /* Optional: Remove underline */
+  color: black;
+}
+
+.sidebar a:hover {
+  /* background-color: #ffffff; Red-500 color for background */
+  color: white; /* Change this to the color you want for the text on hover */
+}
+
+.content {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+  
