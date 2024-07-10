@@ -26,7 +26,7 @@ const Asidebar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/">
+          <Link to="/">         
            <p style={{paddingRight:"10px", transform: "scaleX(-1)"}}> <FaSignOutAlt /> </p> <p style={{paddingLeft:"10px"}}>Signout</p>
           </Link>
         </li>
